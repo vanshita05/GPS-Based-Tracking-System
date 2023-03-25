@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD STATE NAME"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:id="@+id/tv"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_gravity="center_horizontal" />
+
+        <!--  Email Label -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/black">
+            <EditText android:id="@+id/input_cname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="State Name :"
+                android:backgroundTint="@color/colorBlue"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/buttonshape"
+            android:text="ADD NAME"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
