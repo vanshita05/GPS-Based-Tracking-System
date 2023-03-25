@@ -12,16 +12,24 @@ Senior citizen can use this to find nearby hospital, Police Station, Fire Statio
 
 # Tools Used :-
 1.Xampp Server
+
 2.Notepad++
+
 3.Android Studio IDE
+
 4.Web Browser
 
 # Technologies Used :-
 1.Frontend
+	
 	a.XML
+
 2.Backend
+
 	a.JAVA (Android)
+
 3.Database
+	
 	a.MySQL
 
 # Installation :-
